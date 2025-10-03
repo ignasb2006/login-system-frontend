@@ -51,7 +51,6 @@ export default function Register({ setIsLoggedIn }) {
     setEmail(value)
   }
 
-  // Minimalus stiprumo vertinimas
   const checkStrength = (value) => {
     if (value.length > 0) {
       setPasswordAlert("translateY(0%)")

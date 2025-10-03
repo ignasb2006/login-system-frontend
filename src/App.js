@@ -9,7 +9,6 @@ import './App.css';
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Tikrinam ar yra token
   useEffect(() => {
     setIsLoggedIn(!!localStorage.getItem("token"));
   }, []);
